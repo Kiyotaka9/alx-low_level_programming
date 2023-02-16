@@ -1,5 +1,5 @@
 #include <stdio.h>
-i/**
+/**
 * main - A C programming code that prints a line using puts as a function
 * Return: Always 0 (Success)
 */
