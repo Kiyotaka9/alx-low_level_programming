@@ -12,21 +12,21 @@ int main(void)
 {
 	int d;
 
-	int c;
+	int p;
 
 	for (d = '0'; d < '9'; d++)
 	{
 
-	for (c = d + 1; c <= '9'; c++)
+	for (p = d + 1; p <= '9'; p++)
 	{
-	if (c != d)
+	if (p != d)
 	{
 	putchar(d);
-	putchar(c);
-	if (d == '8' && c == '9')
+	putchar(p);
+	if (d == '8' && p == '9')
 	continue;
 	putchar(',');
-	putchar(c);
+	putchar(p);
 	}
 	}
 	}
